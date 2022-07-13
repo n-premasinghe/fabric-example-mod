@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mccourse",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Epic Fabric Mod",
+  "description": "You Clean It here we come.",
   "authors": [
-    "Me!"
+    "npremas"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://npremas.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.npremas.mccourse.MCCourseMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mccourse.mixins.json"
   ],
 
   "depends": {
