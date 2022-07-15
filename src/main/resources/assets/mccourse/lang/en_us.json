@@ -2,5 +2,10 @@
   "item.mccourse.chronocalcum_ingot": "Chronocalcum Ingot",
   "item.mccourse.raw_chronocalcum": "Raw Chronocalcum",
 
-  "block.mccourse.chronocalcum_block": "Chronocalcum Block"
+  "block.mccourse.chronocalcum_block": "Chronocalcum Block",
+  "block.mccourse.chronocalcum_ore": "Chronocalcum Ore",
+
+  "item.mccourse.chronocalcum_katana": "Chronocalcum Katana",
+
+  "itemGroup.mccourse.course": "Course Tab"
 }

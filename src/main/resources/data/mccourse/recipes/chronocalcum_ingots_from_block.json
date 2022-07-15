@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mccourse:chronocalcum_block"
+    }
+  ],
+  "result": {
+    "item": "mccourse:chronocalcum_ingot",
+    "count": 9
+  }
+}

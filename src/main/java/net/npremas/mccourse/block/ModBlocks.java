@@ -10,11 +10,15 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.npremas.mccourse.MCCourseMod;
+import net.npremas.mccourse.item.ModItemGroups;
 
 public class ModBlocks {
 
     public static final Block CHRONOCALCUM_BLOCK = registerBlock("chronocalcum_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroups.COURSE);
+
+    public static final Block CHRONOCALCUM_ORE = registerBlock("chronocalcum_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), ModItemGroups.COURSE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
